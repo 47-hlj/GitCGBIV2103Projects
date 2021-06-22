@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/01-jt/01-jt.iml" filepath="$PROJECT_DIR$/01-jt/01-jt.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/02-jt.iml" filepath="$PROJECT_DIR$/02-jt/02-jt.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-common/jt-common.iml" filepath="$PROJECT_DIR$/02-jt/jt-common/jt-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/jt-common-basic.iml" filepath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/jt-common-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-gateway/jt-gateway.iml" filepath="$PROJECT_DIR$/02-jt/jt-gateway/jt-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-generator/jt-generator.iml" filepath="$PROJECT_DIR$/02-jt/jt-generator/jt-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-portal/jt-member/jt-member.iml" filepath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/jt-member.iml" />

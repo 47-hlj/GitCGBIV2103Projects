@@ -57,5 +57,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.2.8.RELEASE" level="project" />
+    <orderEntry type="module" module-name="jt-common" />
+    <orderEntry type="module" module-name="jt-common-basic" />
   </component>
 </module>

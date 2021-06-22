@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="" />
+    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="第四阶段——微服务架构">
+      <change afterPath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/jt-common-basic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/src/main/java/com/cy/jt/common/basic/util/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-jt/jt-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/src/main/java/com/cy/jt/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/src/main/java/com/cy/jt/MemberApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -27,16 +40,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1uIGfAqbDj78aLrlGdMs3mLLTct" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -83,11 +102,24 @@
       <option name="presentableId" value="Default" />
       <updated>1624345792170</updated>
       <workItem from="1624345793551" duration="64000" />
-      <workItem from="1624345867461" duration="385000" />
+      <workItem from="1624345867461" duration="1753000" />
     </task>
+    <task id="LOCAL-00001" summary="第四阶段——微服务架构">
+      <created>1624346527675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624346527675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="第四阶段——微服务架构" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四阶段——微服务架构" />
   </component>
 </project>

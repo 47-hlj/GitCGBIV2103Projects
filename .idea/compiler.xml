@@ -7,14 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jt-generator" />
-        <module name="jt-common" />
         <module name="jt-gateway" />
         <module name="jt-member" />
+        <module name="jt-common-basic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="02-jt" target="1.5" />
       <module name="jt-common" target="1.5" />
+      <module name="jt-common-basic" target="1.5" />
       <module name="jt-gateway" target="1.5" />
       <module name="jt-generator" target="1.5" />
       <module name="jt-member" target="1.5" />
