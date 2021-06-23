@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="第四阶段——微服务架构">
-      <change afterPath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/jt-common-basic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/src/main/java/com/cy/jt/common/basic/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/jt-demos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/demo/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/src/main/java/com/cy/jt/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/src/main/java/com/cy/jt/MemberApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/jt-member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/jt-member.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/target/classes/com/cy/jt/MemberApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/target/classes/com/cy/jt/MemberApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +50,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -62,7 +68,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -70,6 +76,19 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jt-demos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.jt.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DemoApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
       </list>
     </recent_temporary>
@@ -102,7 +122,10 @@
       <option name="presentableId" value="Default" />
       <updated>1624345792170</updated>
       <workItem from="1624345793551" duration="64000" />
-      <workItem from="1624345867461" duration="1753000" />
+      <workItem from="1624345867461" duration="4155000" />
+      <workItem from="1624351355565" duration="2168000" />
+      <workItem from="1624362170856" duration="1156000" />
+      <workItem from="1624414654624" duration="1352000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -111,15 +134,44 @@
       <option name="project" value="LOCAL" />
       <updated>1624346527675</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第四阶段——微服务架构">
+      <created>1624347768964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624347768964</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第四阶段——微服务架构" />
     <option name="LAST_COMMIT_MESSAGE" value="第四阶段——微服务架构" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/demo/controller/DemoController.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
