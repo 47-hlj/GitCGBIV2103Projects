@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="do test web demos">
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/target/classes/com/cy/jt/MemberApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/target/classes/com/cy/jt/MemberApplication.class" afterDir="false" />
+    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="MemberApplication测试">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/demo/controller/DemoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <workItem from="1624345867461" duration="4155000" />
       <workItem from="1624351355565" duration="2168000" />
       <workItem from="1624362170856" duration="1156000" />
-      <workItem from="1624414654624" duration="1650000" />
+      <workItem from="1624414654624" duration="5211000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -139,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624416243868</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="MemberApplication测试">
+      <created>1624416371342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624416371342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +168,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第四阶段——微服务架构" />
     <MESSAGE value="do test web demos" />
-    <option name="LAST_COMMIT_MESSAGE" value="do test web demos" />
+    <MESSAGE value="MemberApplication测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="MemberApplication测试" />
   </component>
 </project>
