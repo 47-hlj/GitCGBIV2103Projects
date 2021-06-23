@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  tomcat:
+    threads:
+      max: 200      #最大线程数(cpu的核数*200)
+      min-spare: 10 #池中要维护的最少线程数(默认为10)
+    accept-count: 100 #队列的容量
+    max-connections: 8192 #最大连接数
