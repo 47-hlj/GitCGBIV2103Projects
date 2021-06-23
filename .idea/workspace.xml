@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="DemoController实现CRUD">
-      <change afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="tomcat线程">
+      <change afterPath="$PROJECT_DIR$/01-jt/src/com/cy/jt/net/Tomcat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/demo/controller/DemoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +128,7 @@
       <workItem from="1624351355565" duration="2168000" />
       <workItem from="1624362170856" duration="1156000" />
       <workItem from="1624414654624" duration="5740000" />
-      <workItem from="1624428264701" duration="4422000" />
+      <workItem from="1624428264701" duration="6752000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624420320616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tomcat线程">
+      <created>1624433262574</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624433262574</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +196,7 @@
     <MESSAGE value="do test web demos" />
     <MESSAGE value="MemberApplication测试" />
     <MESSAGE value="DemoController实现CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="DemoController实现CRUD" />
+    <MESSAGE value="tomcat线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="tomcat线程" />
   </component>
 </project>
