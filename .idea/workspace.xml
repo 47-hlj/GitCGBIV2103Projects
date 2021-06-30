@@ -5,66 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="Socket">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_commons_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/04-jt-admin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-modules.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/jt-system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/SystemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/test/java/com/cy/jt/dao/DataSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/dao/SysNoticeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/domain/SysNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/service/SysNoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/service/impl/SysNoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/web/controller/SysNoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/web/util/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/web/vo/JsonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/resources/mapper/system/SysNoticeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/test/java/com/cy/jt/dao/SysNoticeDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-modules.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-modules.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/jt-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/jt-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/SystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -125,10 +86,10 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.254023" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -141,7 +102,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DataSourceTest.testGetConnection">
+  <component name="RunManager" selected="Spring Boot.SystemApplication">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -171,72 +132,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="jt-demos" />
+    <configuration name="SysNoticeDaoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jt-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.jt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cy.jt.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.dao.SysNoticeDaoTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysNoticeDaoTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jt-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.jt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cy.jt.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.dao.SysNoticeDaoTest" />
+      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysNoticeDaoTest.testSelectNotices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jt-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.jt.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cy.jt.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.dao.SysNoticeDaoTest" />
+      <option name="METHOD_NAME" value="testSelectNotices" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jt-system" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cy.jt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.jt.DemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="jt-member" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cy.jt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.jt.MemberApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="sca-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.ScaConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScaProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="sca-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.ScaProviderApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.jt.SystemApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Spring Boot.MemberApplication" />
-      <item itemvalue="Spring Boot.ScaConsumerApplication" />
-      <item itemvalue="Spring Boot.ScaProviderApplication" />
       <item itemvalue="JUnit.DataSourceTest.testGetConnection" />
+      <item itemvalue="Spring Boot.SystemApplication" />
+      <item itemvalue="JUnit.SysNoticeDaoTest.testSelectNotices" />
+      <item itemvalue="JUnit.SysNoticeDaoTest.testSelectById" />
+      <item itemvalue="JUnit.SysNoticeDaoTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="JUnit.SysNoticeDaoTest.test" />
+        <item itemvalue="JUnit.SysNoticeDaoTest.testSelectNotices" />
+        <item itemvalue="JUnit.SysNoticeDaoTest.testSelectById" />
         <item itemvalue="JUnit.DataSourceTest.testGetConnection" />
-        <item itemvalue="Spring Boot.ScaProviderApplication" />
-        <item itemvalue="Spring Boot.ScaConsumerApplication" />
-        <item itemvalue="Spring Boot.DemoApplication" />
-        <item itemvalue="Spring Boot.MemberApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +233,7 @@
       <workItem from="1624865406880" duration="7475000" />
       <workItem from="1624928641842" duration="17294000" />
       <workItem from="1625013262796" duration="1439000" />
-      <workItem from="1625014915197" duration="5743000" />
+      <workItem from="1625014915197" duration="23347000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -328,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625014672174</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="jt-cloud-admin">
+      <created>1625021821665</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1625021821665</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +333,7 @@
     <MESSAGE value="Socket" />
     <MESSAGE value="02-jt" />
     <MESSAGE value="provider-consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="provider-consumer" />
+    <MESSAGE value="jt-cloud-admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="jt-cloud-admin" />
   </component>
 </project>

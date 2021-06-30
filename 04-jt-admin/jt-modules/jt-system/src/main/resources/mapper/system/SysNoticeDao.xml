@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org/dtd/mybatis-3-mapper.dtd"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cy.jt.system.dao.SysNoticeDao">
+    <sql id="selectNoticeId">
+        select id,title,content,type,status,remark,createdUser,modifiedUser,createdTime,modifiedTime
+        from sys_notices
+    </sql>
+
+    <select id="selectById" resultType="com.cy.jt.system.domain.SysNotice">
+        <include refid="selectNoticeId"/>
+        where id=#{id}
+    </select>
+
+    <select id="selectNotices" resultType="com.cy.jt.system.domain.SysNotice">
+        <include refid="selectNoticeId"/>
+        <where>
+            <if test="title!=null and title!=''">
+                title like concat("%",#{title},"%")
+            </if>
+            <if test="createdUser!=null and createdUser!=''">
+                and  createdUser like concat("%",#{createdUser},"%")
+            </if>
+            <if test="type!=null and type!=''">
+                and  type like concat("%",#{type},"%")
+            </if>
+        </where>
+    </select>
+
+    <delete id="deleteById">
+        delete from sys_notices
+        <where>
+            <if test="array!=null and array.length>0">
+                id in
+                <foreach collection="array" open="(" close=")" separator="," item="id">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+        or 1=2
+    </delete>
+
+    <insert id="insertNotice" parameterType="com.cy.jt.system.domain.SysNotice">
+        insert into sys_notices(id,title,content,type,status,remark,createdUser,modifiedUser,createdTime,modifiedTime)
+        values (#{id},#{title},#{content},#{type},#{status},#{remark},#{createdUser},#{modifiedUser},now(),now())
+    </insert>
+
+    <update id="updateNotice" parameterType="com.cy.jt.system.domain.SysNotice">
+        update  sys_notices
+        set title=#{title},
+            content=#{content},
+            type =#{type},
+            status=#{status},
+            remark=#{remark},
+            modifiedUser=#{modifiedUser},
+            modifiedTime=now()
+        where id=#{id}
+    </update>
+
+
+</mapper>
