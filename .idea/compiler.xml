@@ -6,22 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sca-provider" />
+        <module name="sca-consumer" />
         <module name="jt-generator" />
-        <module name="jt-gateway" />
         <module name="jt-member" />
-        <module name="jt-common-basic" />
         <module name="jt-demos" />
+        <module name="jt-gateway" />
+        <module name="jt-common-basic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="02-jt" target="1.5" />
+      <module name="03-jt-sca" target="1.8" />
+      <module name="04-jt-cloud-admin" target="8" />
+      <module name="jt-admin" target="8" />
       <module name="jt-common" target="1.5" />
       <module name="jt-common-basic" target="1.5" />
       <module name="jt-demos" target="1.5" />
       <module name="jt-gateway" target="1.5" />
       <module name="jt-generator" target="1.5" />
       <module name="jt-member" target="1.5" />
+      <module name="jt-modules" target="8" />
       <module name="jt-portal" target="1.5" />
+      <module name="jt-system" target="8" />
+      <module name="sca-consumer" target="8" />
+      <module name="sca-provider" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sca-consumer" options="-parameters" />
+      <module name="sca-provider" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -10,6 +10,10 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/02-jt/jt-member/pom.xml" />
+        <option value="$PROJECT_DIR$/04-jt-cloud-admin/jt-modules/jt-/pom.xml" />
+        <option value="$PROJECT_DIR$/04-jt-cloud-admin/jt-modules/jt-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/04-jt-cloud-admin/jt-modules/jt-system/pom.xml" />
+        <option value="$PROJECT_DIR$/04-jt-cloud-admin/jt-modules/pom.xml" />
       </set>
     </option>
   </component>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="animal" uuid="920c0749-40c6-42f4-bad0-ce15c21a355b">
+    <data-source source="LOCAL" name="mysql" uuid="556f1ccc-4754-482e-9cb7-33c5e5d1fec5">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/animal</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/nacos_config</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
       <driver-properties>
         <property name="serverTimezone" value="Asia/Shanghai" />
