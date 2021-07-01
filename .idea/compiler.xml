@@ -12,7 +12,9 @@
         <module name="jt-system" />
         <module name="jt-generator" />
         <module name="jt-member" />
+        <module name="jt-portals" />
         <module name="jt-demos" />
+        <module name="jt-common-basics" />
         <module name="jt-gateway" />
         <module name="jt-common-basic" />
       </profile>
@@ -27,12 +29,15 @@
       <module name="jt-admin" target="8" />
       <module name="jt-common" target="1.5" />
       <module name="jt-common-basic" target="1.5" />
+      <module name="jt-common-basics" target="8" />
+      <module name="jt-commons" target="8" />
       <module name="jt-demos" target="1.5" />
       <module name="jt-gateway" target="1.5" />
       <module name="jt-generator" target="1.5" />
       <module name="jt-member" target="1.5" />
       <module name="jt-modules" target="8" />
       <module name="jt-portal" target="1.5" />
+      <module name="jt-portals" target="8" />
       <module name="jt-system" target="8" />
       <module name="sca-consumer" target="8" />
       <module name="sca-provider" target="8" />
@@ -40,6 +45,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jt-common-basics" options="-parameters" />
+      <module name="jt-commons" options="-parameters" />
+      <module name="jt-portals" options="-parameters" />
       <module name="jt-system" options="-parameters" />
       <module name="sca-consumer" options="-parameters" />
       <module name="sca-provider" options="-parameters" />

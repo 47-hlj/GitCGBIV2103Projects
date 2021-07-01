@@ -1,0 +1,25 @@
+server:
+  port: 8082
+  tomcat:
+    threads:
+      max: 180
+spring:
+  application:
+    name: sca-provider
+  cloud:
+    nacos:
+      discovery: #服务注册
+        server-addr: localhost:8848
+      config: #服务配置
+        server-addr: localhost:8848
+        #配置文件格式
+        file-extension: yml
+        namespace: 46345ec1-96fc-459d-9cca-0bccf3906810
+        group: DEV_GROUP_51
+
+        shared-configs[0]:
+               data-id: app-public.yml
+               group: DEFAULT_GROUP
+               refresh: true
+
+

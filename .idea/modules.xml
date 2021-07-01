@@ -8,12 +8,15 @@
       <module fileurl="file://$PROJECT_DIR$/04-jt-admin/04-jt-admin.iml" filepath="$PROJECT_DIR$/04-jt-admin/04-jt-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-common/jt-common.iml" filepath="$PROJECT_DIR$/02-jt/jt-common/jt-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/jt-common-basic.iml" filepath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/jt-common-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/jt-common-basics.iml" filepath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/jt-common-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-jt-admin/jt-commons/jt-commons.iml" filepath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-portal/jt-demos/jt-demos.iml" filepath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/jt-demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-gateway/jt-gateway.iml" filepath="$PROJECT_DIR$/02-jt/jt-gateway/jt-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-generator/jt-generator.iml" filepath="$PROJECT_DIR$/02-jt/jt-generator/jt-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-portal/jt-member/jt-member.iml" filepath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/jt-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-jt-admin/jt-modules/jt-modules.iml" filepath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-portal/jt-portal.iml" filepath="$PROJECT_DIR$/02-jt/jt-portal/jt-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/jt-portals.iml" filepath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/jt-portals.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/jt-system.iml" filepath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/jt-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-jt-sca/sca-consumer/sca-consumer.iml" filepath="$PROJECT_DIR$/03-jt-sca/sca-consumer/sca-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-jt-sca/sca-provider/sca-provider.iml" filepath="$PROJECT_DIR$/03-jt-sca/sca-provider/sca-provider.iml" />

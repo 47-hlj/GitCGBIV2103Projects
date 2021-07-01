@@ -1,6 +1,6 @@
 package com.cy.jt.system.service;
 
-import com.cy.jt.system.domain.SysNotice;
+import com.cy.jt.common.domain.SysNotice;
 
 import java.util.List;
 

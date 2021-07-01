@@ -1,4 +1,4 @@
-package com.cy.jt.system.domain;
+package com.cy.jt.common.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

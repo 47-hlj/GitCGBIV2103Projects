@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: jt-portals
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+feign:
+  httpclient:
+    enabled: true

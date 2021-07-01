@@ -1,7 +1,7 @@
 package com.cy.jt.system.dao;
 
 
-import com.cy.jt.system.domain.SysNotice;
+import com.cy.jt.common.domain.SysNotice;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

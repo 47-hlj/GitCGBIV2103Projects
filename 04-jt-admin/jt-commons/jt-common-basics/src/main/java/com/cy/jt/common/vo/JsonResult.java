@@ -1,9 +1,8 @@
-package com.cy.jt.system.web.vo;
+package com.cy.jt.common.vo;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
 
-import javax.management.ObjectName;
 import java.io.Serializable;
 
 @Data
@@ -16,6 +15,7 @@ public class JsonResult implements Serializable {
     private String message;
     //一般对应查询结果
     private Object data;
+    public JsonResult(){}
     public JsonResult(String message){
         this.message=message;
     }

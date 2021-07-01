@@ -1,16 +1,15 @@
 package com.cy.jt.system.web.controller;
 
-import com.cy.jt.system.domain.SysNotice;
+import com.cy.jt.common.domain.SysNotice;
+import com.cy.jt.system.web.util.PageUtils;
+import com.cy.jt.common.vo.JsonResult;
 import com.cy.jt.system.service.SysNoticeService;
-import com.cy.jt.system.web.util.WebUtils;
-import com.cy.jt.system.web.vo.JsonResult;
-import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin
 @RestController
-@RequestMapping("notice")
+@RequestMapping("/notice/")
 public class SysNoticeController {
     @Autowired
     private SysNoticeService sysNoticeService;
@@ -32,7 +31,7 @@ public class SysNoticeController {
 //            }
 //        }));
         //上面分页的简化写法
-        return new JsonResult(WebUtils.startPage().doSelectPageInfo(()->{
+        return new JsonResult(PageUtils.startPage().doSelectPageInfo(()->{
             sysNoticeService.selectNotices(sysNotice);
         }));
     }

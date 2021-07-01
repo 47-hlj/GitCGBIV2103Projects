@@ -1,0 +1,14 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: sca-comsumer
+  cloud:
+    nacos: #服务注册
+      discovery:
+        server-addr: localhost:8848
+
+logging:
+  level:
+    com.cy: error
+

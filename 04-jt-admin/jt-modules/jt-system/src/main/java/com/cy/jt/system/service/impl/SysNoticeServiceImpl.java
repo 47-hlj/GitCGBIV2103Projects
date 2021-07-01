@@ -1,7 +1,7 @@
 package com.cy.jt.system.service.impl;
 
 import com.cy.jt.system.dao.SysNoticeDao;
-import com.cy.jt.system.domain.SysNotice;
+import com.cy.jt.common.domain.SysNotice;
 import com.cy.jt.system.service.SysNoticeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
