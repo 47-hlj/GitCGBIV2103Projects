@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="jt-cloud-admin">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_httpclient_10_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/jt-common-basics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-commons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/jt-portals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java/com/cy/jt/PortalsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java/com/cy/jt/controller/PortalsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java/com/cy/jt/service/feign/RemoteNoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/web/util/PageUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-modules.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-modules.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/jt-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/jt-system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/dao/SysNoticeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/dao/SysNoticeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/domain/SysNotice.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/src/main/java/com/cy/jt/common/domain/SysNotice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/service/SysNoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/service/SysNoticeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/service/impl/SysNoticeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/service/impl/SysNoticeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/web/controller/SysNoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/web/controller/SysNoticeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/web/util/WebUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/web/vo/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/src/main/java/com/cy/jt/common/vo/JsonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/resources/mapper/system/SysNoticeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/resources/mapper/system/SysNoticeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/test/java/com/cy/jt/dao/SysNoticeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/test/java/com/cy/jt/dao/SysNoticeDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="jt-cloud-admin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +220,7 @@
       <workItem from="1625014915197" duration="23967000" />
       <workItem from="1625055628195" duration="13000" />
       <workItem from="1625100295234" duration="4746000" />
-      <workItem from="1625108176996" duration="6622000" />
+      <workItem from="1625108176996" duration="6933000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -334,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625048175707</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="jt-cloud-admin">
+      <created>1625121704402</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1625121704402</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

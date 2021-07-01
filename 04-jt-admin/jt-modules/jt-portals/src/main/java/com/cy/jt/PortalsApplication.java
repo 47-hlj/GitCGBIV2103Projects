@@ -11,6 +11,7 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Map;
 
 @EnableFeignClients
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
@@ -38,8 +39,11 @@ public class PortalsApplication {
                 HttpServletRequest request=((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
                 //2.将原有请求的数据添加到新的请求中
                 //requestTemplate.header();//向请求体中添加数据
-                requestTemplate.query("pageCurrent",request.getParameter("pageCurrent"));
-                requestTemplate.query("pageSize",request.getParameter("pageSize"));
+                Map<String,String[]> parameterMap = request.getParameterMap();
+                if(parameterMap.containsKey("pageCurrent")) {
+                    requestTemplate.query("pageCurrent", request.getParameter("pageCurrent"));
+                    requestTemplate.query("pageSize", request.getParameter("pageSize"));
+                }
             }
         };
     }
