@@ -7,7 +7,12 @@ spring:
     nacos: #服务注册
       discovery:
         server-addr: localhost:8848
-
+    sentinel:
+      transport:
+        port: 8099 #跟sentinel控制台交流的端口,随意指定一个未使用的端口即可
+        dashboard: localhost:8180 # 指定sentinel控制台地址。
+      eager: true  #服务启动时就在sentinel注册
+      web-context-unify: false #链路模式 入口资源不同
 logging:
   level:
     com.cy: error

@@ -1,5 +1,6 @@
 package com.cy;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -55,8 +57,19 @@ public class ScaConsumerApplication {
         return new RestTemplate();
     }
 
+    @Service
+    public class ConsumerService{
+        @SentinelResource("doConsumerService")
+        public String doConsumerService(){
+            //表示通过此方法访问指定资源，例如以后访问数据库
+            return "do consunmer service";
+        }
+    }
+
     @RestController
     public class ConsumerController{
+        @Autowired
+        private ConsumerService consumerService;
         @Value("${spring.application.name}")
         private String consumerName;
         @Autowired
@@ -95,7 +108,10 @@ public class ScaConsumerApplication {
 
         @GetMapping("/consumer/doRestEcho03")
         public String doRestEcho03(){
+            //流控规则中的链路限流
+            consumerService.doConsumerService();
             String url=String.format("http://%s/provider/echo/%s","sca-provider",consumerName);
+            //调用服务提供方(sca-provider)
             return loadBalancedRestTemplate().getForObject(url,String.class);
         }
 

@@ -22,7 +22,7 @@
     <bytecodeTargetLevel>
       <module name="02-jt" target="1.5" />
       <module name="03-jt-admin" target="8" />
-      <module name="03-jt-sca" target="1.8" />
+      <module name="03-jt-sca" target="1.5" />
       <module name="04-jt-admin" target="1.8" />
       <module name="04-jt-cloud-admin" target="8" />
       <module name="04-jt-sca" target="1.8" />
@@ -49,8 +49,8 @@
       <module name="jt-commons" options="-parameters" />
       <module name="jt-portals" options="-parameters" />
       <module name="jt-system" options="-parameters" />
-      <module name="sca-consumer" options="-parameters" />
-      <module name="sca-provider" options="-parameters" />
+      <module name="sca-consumer" options="" />
+      <module name="sca-provider" options="" />
     </option>
   </component>
 </project>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03-jt-sca/sca-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-jt-sca/sca-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java" charset="UTF-8" />
