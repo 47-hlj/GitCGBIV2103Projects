@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="jt-cloud-admin">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_datasource_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_circuitbreaker_sentinel_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_sentinel_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_annotation_aspectj_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_client_default_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_common_default_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_server_default_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webflux_adapter_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webmvc_adapter_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_3_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/sca-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/sca-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java/com/cy/ScaConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java/com/cy/ScaConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="sentinel限流" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,7 +213,7 @@
       <workItem from="1625055628195" duration="13000" />
       <workItem from="1625100295234" duration="4746000" />
       <workItem from="1625108176996" duration="9326000" />
-      <workItem from="1625189265874" duration="4921000" />
+      <workItem from="1625189265874" duration="5232000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -344,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625122105455</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="sentinel限流">
+      <created>1625196199465</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1625196199465</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +342,7 @@
     <MESSAGE value="02-jt" />
     <MESSAGE value="provider-consumer" />
     <MESSAGE value="jt-cloud-admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="jt-cloud-admin" />
+    <MESSAGE value="sentinel限流" />
+    <option name="LAST_COMMIT_MESSAGE" value="sentinel限流" />
   </component>
 </project>
