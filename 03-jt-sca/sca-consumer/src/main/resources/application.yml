@@ -16,4 +16,3 @@ spring:
 logging:
   level:
     com.cy: error
-
