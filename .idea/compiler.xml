@@ -15,6 +15,7 @@
         <module name="jt-portals" />
         <module name="jt-demos" />
         <module name="jt-common-basics" />
+        <module name="sca-gateway" />
         <module name="jt-gateway" />
         <module name="jt-common-basic" />
       </profile>
@@ -40,6 +41,7 @@
       <module name="jt-portals" target="8" />
       <module name="jt-system" target="8" />
       <module name="sca-consumer" target="8" />
+      <module name="sca-gateway" target="8" />
       <module name="sca-provider" target="8" />
     </bytecodeTargetLevel>
   </component>

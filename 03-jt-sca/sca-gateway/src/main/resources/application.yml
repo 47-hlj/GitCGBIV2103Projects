@@ -1,0 +1,15 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: sca-gateway
+  cloud:
+    gateway:
+      routes: #配置路由规则，简单点就是请求转发
+        - id: route01
+          uri: http://localhost:8090/
+          predicates: #匹配规则 (谓词对象，断言对象)
+            - Path=/nacos/consumer/**
+          filters: #http://ip:9000/nacos/consumer/**
+            - StripPrefix=1 #转发之前去掉path中第一层路径，例如nacos
+

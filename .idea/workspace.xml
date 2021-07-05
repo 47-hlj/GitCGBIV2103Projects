@@ -5,15 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="sentinel">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_nacos_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/sca-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/src/main/java/com/cy/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/sca-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/sca-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java/com/cy/ScaConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java/com/cy/ScaConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/ScaConsumerApplication$ConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/ScaConsumerApplication$ConsumerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/ScaConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/ScaConsumerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/controller/RestConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/controller/RestConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-jt-sca/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/controller/FeignConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/controller/FeignConsumerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/service/RemoteProviderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/service/RemoteProviderService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +124,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ScaConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -111,18 +136,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SysNoticeDaoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jt-system" />
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sca-gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cy.jt.dao.*" />
+          <option name="PATTERN" value="com.cy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cy.jt.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.cy.jt.dao.SysNoticeDaoTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,19 +202,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SysNoticeDaoTest.test" />
       <item itemvalue="Spring Boot.SystemApplication" />
       <item itemvalue="Spring Boot.PortalsApplication" />
       <item itemvalue="Spring Boot.ScaProviderApplication" />
       <item itemvalue="Spring Boot.ScaConsumerApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ScaConsumerApplication" />
         <item itemvalue="Spring Boot.ScaProviderApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.PortalsApplication" />
         <item itemvalue="Spring Boot.SystemApplication" />
-        <item itemvalue="JUnit.SysNoticeDaoTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +247,7 @@
       <workItem from="1625108176996" duration="9326000" />
       <workItem from="1625189265874" duration="15557000" />
       <workItem from="1625443829902" duration="3699000" />
-      <workItem from="1625447602734" duration="996000" />
+      <workItem from="1625447602734" duration="3408000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -346,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625447127372</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="sentinel">
+      <created>1625448854987</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1625448854987</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
