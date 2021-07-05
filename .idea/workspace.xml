@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="Gateway">
+      <change afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/src/main/java/com/cy/filters/AuthGlobalFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-gateway/sca-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/sca-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,16 +96,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ScaConsumerApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,8 +178,8 @@
       <item itemvalue="Spring Boot.SystemApplication" />
       <item itemvalue="Spring Boot.PortalsApplication" />
       <item itemvalue="Spring Boot.ScaProviderApplication" />
-      <item itemvalue="Spring Boot.ScaConsumerApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ScaConsumerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -226,7 +221,8 @@
       <workItem from="1625189265874" duration="15557000" />
       <workItem from="1625443829902" duration="3699000" />
       <workItem from="1625447602734" duration="8211000" />
-      <workItem from="1625457596732" duration="3478000" />
+      <workItem from="1625457596732" duration="10692000" />
+      <workItem from="1625476371967" duration="4022000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -361,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625452856641</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Gateway">
+      <created>1625466438728</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1625466438728</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
