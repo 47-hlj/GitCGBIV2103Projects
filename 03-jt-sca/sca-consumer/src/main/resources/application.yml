@@ -1,8 +1,8 @@
 server:
-  port: 8090
+  port: 8091
 spring:
   application:
-    name: sca-comsumer
+    name: sca-consumer
   cloud:
     nacos: #服务注册
       discovery:
