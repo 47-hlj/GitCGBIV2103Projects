@@ -113,10 +113,10 @@ public class ScaConsumerApplication {
         private AtomicLong atomicLong=new AtomicLong(0);
         @GetMapping("/consumer/doRestEcho03")
         public String doRestEcho03() throws InterruptedException {
-            long num=atomicLong.getAndIncrement();
-            if(num%2==0){
-                Thread.sleep(100);//模拟耗时操作//
-            }
+//            long num=atomicLong.getAndIncrement();
+//            if(num%2==0){
+//                Thread.sleep(100);//模拟耗时操作//
+//            }
             //流控规则中的链路限流
             //consumerService.doConsumerService();
             String url=String.format("http://%s/provider/echo/%s","sca-provider",consumerName);

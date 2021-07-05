@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="sentinel限流">
-      <change afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java/com/cy/interceptor/DefaultRequestOriginParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java/com/cy/interceptor/ServiceBlockExceptionHandler.java" afterDir="false" />
+    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="sentinel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/sca-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/sca-consumer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java/com/cy/ScaConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java/com/cy/ScaConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java/com/cy/interceptor/TimeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/java/com/cy/interceptor/TimeInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/ScaConsumerApplication$ConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/ScaConsumerApplication$ConsumerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/ScaConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/ScaConsumerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-provider/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-provider/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-provider/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-provider/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/controller/RestConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/controller/RestConsumerController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,15 +100,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ScaConsumerApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,8 +188,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ScaProviderApplication" />
         <item itemvalue="Spring Boot.ScaConsumerApplication" />
+        <item itemvalue="Spring Boot.ScaProviderApplication" />
         <item itemvalue="Spring Boot.PortalsApplication" />
         <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="JUnit.SysNoticeDaoTest.test" />
@@ -228,7 +224,8 @@
       <workItem from="1625100295234" duration="4746000" />
       <workItem from="1625108176996" duration="9326000" />
       <workItem from="1625189265874" duration="15557000" />
-      <workItem from="1625443829902" duration="3218000" />
+      <workItem from="1625443829902" duration="3699000" />
+      <workItem from="1625447602734" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -342,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625197800561</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="sentinel">
+      <created>1625447127372</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1625447127372</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +376,7 @@
     <MESSAGE value="provider-consumer" />
     <MESSAGE value="jt-cloud-admin" />
     <MESSAGE value="sentinel限流" />
-    <option name="LAST_COMMIT_MESSAGE" value="sentinel限流" />
+    <MESSAGE value="sentinel" />
+    <option name="LAST_COMMIT_MESSAGE" value="sentinel" />
   </component>
 </project>
