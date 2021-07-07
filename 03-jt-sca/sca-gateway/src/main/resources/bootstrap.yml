@@ -10,3 +10,8 @@ spring:
       config:
         server-addr: localhost:8848
         file-extension: yml
+    sentinel:
+      transport:
+        dashboard: localhost:8180
+        port: 8719
+      eager: true
