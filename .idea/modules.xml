@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/02-jt/02-jt.iml" filepath="$PROJECT_DIR$/02-jt/02-jt.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-jt-sca/03-jt-sca.iml" filepath="$PROJECT_DIR$/03-jt-sca/03-jt-sca.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-jt-admin/04-jt-admin.iml" filepath="$PROJECT_DIR$/04-jt-admin/04-jt-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-jt-redis/05-jt-redis.iml" filepath="$PROJECT_DIR$/05-jt-redis/05-jt-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-common/jt-common.iml" filepath="$PROJECT_DIR$/02-jt/jt-common/jt-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/jt-common-basic.iml" filepath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/jt-common-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/jt-common-basics.iml" filepath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/jt-common-basics.iml" />

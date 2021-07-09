@@ -18,6 +18,7 @@
         <module name="sca-gateway" />
         <module name="jt-gateway" />
         <module name="jt-common-basic" />
+        <module name="05-jt-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
       <module name="04-jt-admin" target="1.8" />
       <module name="04-jt-cloud-admin" target="8" />
       <module name="04-jt-sca" target="1.8" />
+      <module name="05-jt-redis" target="8" />
       <module name="jt-admin" target="8" />
       <module name="jt-common" target="1.5" />
       <module name="jt-common-basic" target="1.5" />
@@ -47,6 +49,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="05-jt-redis" options="-parameters" />
       <module name="jt-common-basics" options="-parameters" />
       <module name="jt-commons" options="-parameters" />
       <module name="jt-portals" options="-parameters" />

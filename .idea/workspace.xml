@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="Gateway">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_gateway_2_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_api_gateway_adapter_common_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_cloud_gateway_adapter_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_zuul_adapter_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/05-jt-redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/src/main/java/com/cy/jt/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/src/test/java/com/cy/jt/JedisPoolTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/src/test/java/com/cy/jt/JedisTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-gateway/sca-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/sca-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-provider/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-provider/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-provider/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-provider/target/classes/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.254023" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -106,90 +108,112 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ScaProviderApplication">
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="sca-gateway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.GatewayApplication" />
-      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.app.type=1" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+  <component name="RunManager" selected="JUnit.JedisTests.testList01">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PortalsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="jt-portals" />
+    <configuration name="JedisPoolTests.testJedisPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-jt-redis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cy.jt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.jt.PortalsApplication" />
+      <option name="PACKAGE_NAME" value="com.cy.jt" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.JedisPoolTests" />
+      <option name="METHOD_NAME" value="testJedisPool" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="sca-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.ScaConsumerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScaProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="sca-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.ScaProviderApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="jt-system" />
+    <configuration name="JedisTests.testJsonOper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-jt-redis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cy.jt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cy.jt.SystemApplication" />
+      <option name="PACKAGE_NAME" value="com.cy.jt" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.JedisTests" />
+      <option name="METHOD_NAME" value="testJsonOper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTests.testList01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-jt-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cy.jt" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.JedisTests" />
+      <option name="METHOD_NAME" value="testList01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTests.testRedisHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-jt-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cy.jt" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.JedisTests" />
+      <option name="METHOD_NAME" value="testRedisHash" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTests.testStringOper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-jt-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.jt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cy.jt" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.JedisTests" />
+      <option name="METHOD_NAME" value="testStringOper" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.SystemApplication" />
-      <item itemvalue="Spring Boot.PortalsApplication" />
-      <item itemvalue="Spring Boot.ScaProviderApplication" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="Spring Boot.ScaConsumerApplication" />
+      <item itemvalue="JUnit.JedisTests.testStringOper" />
+      <item itemvalue="JUnit.JedisTests.testJsonOper" />
+      <item itemvalue="JUnit.JedisTests.testRedisHash" />
+      <item itemvalue="JUnit.JedisPoolTests.testJedisPool" />
+      <item itemvalue="JUnit.JedisTests.testList01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ScaProviderApplication" />
-        <item itemvalue="Spring Boot.ScaConsumerApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.PortalsApplication" />
-        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="JUnit.JedisTests.testList01" />
+        <item itemvalue="JUnit.JedisPoolTests.testJedisPool" />
+        <item itemvalue="JUnit.JedisTests.testRedisHash" />
+        <item itemvalue="JUnit.JedisTests.testJsonOper" />
+        <item itemvalue="JUnit.JedisTests.testStringOper" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +252,11 @@
       <workItem from="1625534465149" duration="1550000" />
       <workItem from="1625552332855" duration="673000" />
       <workItem from="1625573578512" duration="24000" />
+      <workItem from="1625627137736" duration="2181000" />
+      <workItem from="1625794979963" duration="145000" />
+      <workItem from="1625797561515" duration="3068000" />
+      <workItem from="1625800825133" duration="2997000" />
+      <workItem from="1625813318594" duration="4985000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -376,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625487524930</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="gateway&amp;sentinel">
+      <created>1625627222549</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1625627222549</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,6 +444,7 @@
     <MESSAGE value="sentinel限流" />
     <MESSAGE value="sentinel" />
     <MESSAGE value="Gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gateway" />
+    <MESSAGE value="gateway&amp;sentinel" />
+    <option name="LAST_COMMIT_MESSAGE" value="gateway&amp;sentinel" />
   </component>
 </project>

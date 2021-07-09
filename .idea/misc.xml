@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/02-jt/pom.xml" />
         <option value="$PROJECT_DIR$/03-jt-sca/pom.xml" />
         <option value="$PROJECT_DIR$/04-jt-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/05-jt-redis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
