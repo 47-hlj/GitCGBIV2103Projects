@@ -5,58 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="redis">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/jt-jedis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisPoolTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/jt-template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/RedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/test/java/com/cy/redis/StringRedisTemplateTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_5_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/test/java/com/cy/redis/RedisTemplateTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-jt/src/com/cy/jt/net/Tomcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-jt/src/com/cy/net/Tomcat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/src/main/java/com/cy/jt/common/basic/util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/src/main/java/com/cy/common/basic/util/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/demo/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/demo/controller/MemoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/demo/controller/MemoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/jt/demo/service/MemoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/java/com/cy/demo/service/MemoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/src/main/java/com/cy/jt/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/src/main/java/com/cy/MemberApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-provider/src/main/java/com/cy/ScaProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-provider/src/main/java/com/cy/ScaProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/src/main/java/com/cy/jt/common/domain/SysNotice.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/src/main/java/com/cy/common/domain/SysNotice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/src/main/java/com/cy/jt/common/vo/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/src/main/java/com/cy/common/vo/JsonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java/com/cy/jt/PortalsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java/com/cy/PortalsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java/com/cy/jt/controller/PortalsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java/com/cy/controller/PortalsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java/com/cy/jt/service/feign/RemoteNoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java/com/cy/service/feign/RemoteNoticeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/SystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/dao/SysNoticeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/system/dao/SysNoticeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/service/SysNoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/system/service/SysNoticeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/service/impl/SysNoticeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/system/service/impl/SysNoticeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/web/controller/SysNoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/system/web/controller/SysNoticeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/jt/system/web/util/PageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java/com/cy/system/web/util/PageUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/resources/mapper/system/SysNoticeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/resources/mapper/system/SysNoticeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/test/java/com/cy/jt/dao/DataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/test/java/com/cy/dao/DataSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/test/java/com/cy/jt/dao/SysNoticeDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/test/java/com/cy/dao/SysNoticeDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/05-jt-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/05-jt-redis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/src/main/java/com/cy/jt/RedisApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/src/test/java/com/cy/jt/JedisPoolTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/src/test/java/com/cy/jt/JedisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +73,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.254023" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -136,6 +86,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CGBIV\CODES\GitCGBIV2103Projects\05-jt-redis\jt-jedis\src\test\java" />
       <recent name="D:\CGBIV\CODES\GitCGBIV2103Projects\05-jt-redis\jt-jedis\src\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CGBIV\CODES\GitCGBIV2103Projects\05-jt-redis\jt-template\src\test\java\com\cy\redis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cy.jt.common.domain" />
@@ -150,20 +103,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringRedisTemplateTests.testConnection">
-    <configuration name="RedisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cy.RedisApplication" />
-      <module name="jt-template" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RedisTemplateTests.testSetData (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -175,17 +115,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisPoolTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jt-jedis" />
+    <configuration name="RedisTemplateTests.testSetData (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jt-template" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cy.jt.redis.*" />
+          <option name="PATTERN" value="com.cy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cy.jt.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.cy.jt.redis.JedisPoolTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.cy" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.RedisTemplateTests" />
+      <option name="METHOD_NAME" value="testSetData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTemplateTests.testSetData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jt-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cy.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.redis.RedisTemplateTests" />
+      <option name="METHOD_NAME" value="testSetData" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,19 +195,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RedisApplication" />
-      <item itemvalue="JUnit.JedisPoolTests" />
       <item itemvalue="JUnit.StringRedisTemplateTests.testConnection" />
       <item itemvalue="JUnit.StringRedisTemplateTests" />
       <item itemvalue="JUnit.StringRedisTemplateTests.testStringOper" />
+      <item itemvalue="JUnit.RedisTemplateTests.testSetData" />
+      <item itemvalue="JUnit.RedisTemplateTests.testSetData (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisTemplateTests.testSetData (1)" />
+        <item itemvalue="JUnit.RedisTemplateTests.testSetData" />
         <item itemvalue="JUnit.StringRedisTemplateTests.testConnection" />
         <item itemvalue="JUnit.StringRedisTemplateTests.testStringOper" />
         <item itemvalue="JUnit.StringRedisTemplateTests" />
-        <item itemvalue="Application.RedisApplication" />
-        <item itemvalue="JUnit.JedisPoolTests" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +252,7 @@
       <workItem from="1625800825133" duration="2997000" />
       <workItem from="1625813318594" duration="10434000" />
       <workItem from="1625998314162" duration="5562000" />
-      <workItem from="1626007149584" duration="2595000" />
+      <workItem from="1626007149584" duration="5309000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -458,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625819730219</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="redis">
+      <created>1626010242848</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1626010242848</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
