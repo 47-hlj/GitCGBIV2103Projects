@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sca-consumer" />
-        <module name="sca-provider" />
         <module name="jt-system" />
         <module name="jt-generator" />
         <module name="jt-member" />
         <module name="jt-portals" />
+        <module name="jt-template" />
         <module name="jt-demos" />
-        <module name="jt-common-basics" />
         <module name="sca-gateway" />
+        <module name="jt-jedis" />
+        <module name="sca-consumer" />
+        <module name="sca-provider" />
+        <module name="jt-common-basics" />
         <module name="jt-gateway" />
         <module name="jt-common-basic" />
-        <module name="05-jt-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,11 +38,13 @@
       <module name="jt-demos" target="1.5" />
       <module name="jt-gateway" target="1.5" />
       <module name="jt-generator" target="1.5" />
+      <module name="jt-jedis" target="8" />
       <module name="jt-member" target="1.5" />
       <module name="jt-modules" target="8" />
       <module name="jt-portal" target="1.5" />
       <module name="jt-portals" target="8" />
       <module name="jt-system" target="8" />
+      <module name="jt-template" target="8" />
       <module name="sca-consumer" target="8" />
       <module name="sca-gateway" target="8" />
       <module name="sca-provider" target="8" />
@@ -52,8 +55,10 @@
       <module name="05-jt-redis" options="-parameters" />
       <module name="jt-common-basics" options="-parameters" />
       <module name="jt-commons" options="-parameters" />
+      <module name="jt-jedis" options="" />
       <module name="jt-portals" options="-parameters" />
       <module name="jt-system" options="-parameters" />
+      <module name="jt-template" options="" />
       <module name="sca-consumer" options="" />
       <module name="sca-provider" options="" />
     </option>

@@ -11,6 +11,6 @@
     <file url="file://$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/05-jt-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-jt-redis/jt-jedis/src/main/java" charset="UTF-8" />
   </component>
 </project>

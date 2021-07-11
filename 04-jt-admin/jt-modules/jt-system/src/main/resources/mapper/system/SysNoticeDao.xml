@@ -2,18 +2,18 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org/dtd/mybatis-3-mapper.dtd"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.cy.jt.system.dao.SysNoticeDao">
+<mapper namespace="com.cy.system.dao.SysNoticeDao">
     <sql id="selectNoticeId">
         select id,title,content,type,status,remark,createdUser,modifiedUser,createdTime,modifiedTime
         from sys_notices
     </sql>
 
-    <select id="selectById" resultType="com.cy.jt.common.domain.SysNotice">
+    <select id="selectById" resultType="com.cy.common.domain.SysNotice">
         <include refid="selectNoticeId"/>
         where id=#{id}
     </select>
 
-    <select id="selectNotices" resultType="com.cy.jt.common.domain.SysNotice">
+    <select id="selectNotices" resultType="com.cy.common.domain.SysNotice">
         <include refid="selectNoticeId"/>
         <where>
             <if test="title!=null and title!=''">
@@ -41,12 +41,12 @@
         or 1=2
     </delete>
 
-    <insert id="insertNotice" parameterType="com.cy.jt.common.domain.SysNotice">
+    <insert id="insertNotice" parameterType="com.cy.common.domain.SysNotice">
         insert into sys_notices(id,title,content,type,status,remark,createdUser,modifiedUser,createdTime,modifiedTime)
         values (#{id},#{title},#{content},#{type},#{status},#{remark},#{createdUser},#{modifiedUser},now(),now())
     </insert>
 
-    <update id="updateNotice" parameterType="com.cy.jt.common.domain.SysNotice">
+    <update id="updateNotice" parameterType="com.cy.common.domain.SysNotice">
         update  sys_notices
         set title=#{title},
             content=#{content},
