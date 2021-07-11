@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="redis">
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/test/java/com/cy/redis/RedisTemplateTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +252,7 @@
       <workItem from="1625800825133" duration="2997000" />
       <workItem from="1625813318594" duration="10434000" />
       <workItem from="1625998314162" duration="5562000" />
-      <workItem from="1626007149584" duration="5309000" />
+      <workItem from="1626007149584" duration="6147000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -422,7 +422,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626010242848</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="redis">
+      <created>1626012882202</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1626012882202</updated>
+    </task>
+    <task id="LOCAL-00026" summary="redis">
+      <created>1626013016766</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1626013016766</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
