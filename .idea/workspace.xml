@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="redis">
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/main/java/com/cy/jt/redis/JedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/redis/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/redis/pojo/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/jt-jedis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/jt-jedis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisPoolTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisPoolTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/target/test-classes/com/cy/jt/redis/JedisPoolTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/target/test-classes/com/cy/jt/redis/JedisPoolTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/target/test-classes/com/cy/jt/redis/JedisTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/target/test-classes/com/cy/jt/redis/JedisTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/jt-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/jt-template.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/RedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/RedisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/src/test/java/com/cy/redis/RedisTemplateTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/src/test/java/com/cy/redis/StringRedisTemplateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/test/java/com/cy/redis/StringRedisTemplateTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/target/classes/com/cy/RedisApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/target/test-classes/com/cy/RedisTemplateTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/target/test-classes/com/cy/StringRedisTemplateTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/redis/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/redis/config/RedisConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,17 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JedisTests.testStringOper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jt-jedis" />
       <extension name="coverage">
@@ -214,9 +182,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.JedisApplication" />
       <item itemvalue="JUnit.JedisTests.testStringOper" />
       <item itemvalue="JUnit.StringRedisTemplateTests.testConnection" />
-      <item itemvalue="Application.JedisApplication" />
       <item itemvalue="JUnit.StringRedisTemplateTests.testStringOper" />
       <item itemvalue="JUnit.RedisTemplateTests.testConnection" />
     </list>
@@ -273,7 +241,8 @@
       <workItem from="1625998314162" duration="5562000" />
       <workItem from="1626007149584" duration="7273000" />
       <workItem from="1626050496287" duration="10594000" />
-      <workItem from="1626063889350" duration="4627000" />
+      <workItem from="1626063889350" duration="5933000" />
+      <workItem from="1626070664306" duration="437000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -464,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626013994120</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="redis">
+      <created>1626069123920</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1626069123920</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
