@@ -10,10 +10,11 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @author 47HLJ
- * @date 2021/7/11 20:31
+ * @date 2021/7/12 13:11
  */
 @SpringBootTest
 public class StringRedisTemplateTests {
+
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
@@ -26,8 +27,7 @@ public class StringRedisTemplateTests {
     @Test
     void testStringOper() throws InterruptedException {
         //获取操作key,value的对象
-        ValueOperations<String, String> vo =
-                stringRedisTemplate.opsForValue();
+        ValueOperations<String, String> vo = stringRedisTemplate.opsForValue();
         vo.set("key1","100");
         vo.set("key2","200");
         vo.increment("key2");

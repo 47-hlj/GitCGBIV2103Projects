@@ -1,7 +1,9 @@
 package com.cy.jt.redis;
 
 import com.google.gson.Gson;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 import redis.clients.jedis.Jedis;
 
 import java.util.*;
@@ -11,12 +13,13 @@ import java.util.concurrent.TimeUnit;
  * @author 47HLJ
  * @date 2021/7/11 20:14
  */
+@SpringBootTest
 public class JedisTests {
     /*基于jedis操作redis中的字符串
      *场景应用:保存登录时的验证码,手机短信验证码,购物车数量递增,博客文字数量,...
      */
     @Test
-    public void testStringOper() throws InterruptedException {
+    void testStringOper() throws InterruptedException {
         //构建redis客户端对象 jedis,我们在连接redis时,需要在redis的服务端
         //的redis.conf配置文件中,将bind 127.0.0.1这个配置注释掉,
         //修改保护模式protected-mode为no,改完以后要重启
@@ -43,7 +46,7 @@ public class JedisTests {
     }
 
     @Test
-    public void testJsonOper(){
+    void testJsonOper(){
         //构建对象
         Map<String,Object> map=new HashMap<>();
         map.put("id",100);
@@ -63,7 +66,7 @@ public class JedisTests {
         jedis.close();
     }
     @Test
-    public void testRedisHash01(){
+    void testRedisHash01(){
         //1.建立连接
         Jedis jedis=new Jedis("192.168.126.128",6379);
         //2.存储一篇博客信息
@@ -79,7 +82,7 @@ public class JedisTests {
         jedis.close();
     }
     @Test
-    public void testRedisHash02(){
+    void testRedisHash02(){
         //1.建立连接
         Jedis jedis=new Jedis("192.168.126.128",6379);
         //2.存储一篇博客信息
@@ -96,7 +99,7 @@ public class JedisTests {
 
     /**实现一个秒杀队列*/
     @Test
-    public void testList01(){
+    void testList01(){
         //1.连接redis
         Jedis jedis=new Jedis("192.168.126.128",6379);
         //2.向队列存数据
@@ -112,7 +115,7 @@ public class JedisTests {
 
     /**实现一个阻塞式队列*/
     @Test
-    public void testList02(){
+    void testList02(){
         //1.连接redis
         Jedis jedis=new Jedis("192.168.126.128",6379);
         //2.向队列存数据
@@ -124,7 +127,7 @@ public class JedisTests {
         jedis.close();
     }
     @Test
-    public void testSet01() {
+    void testSet01() {
         //1.连接redis
         Jedis jedis = new Jedis("192.168.126.128", 6379);
         //2.朋友圈点赞

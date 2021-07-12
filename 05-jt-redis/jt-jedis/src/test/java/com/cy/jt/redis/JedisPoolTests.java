@@ -4,15 +4,17 @@ package com.cy.jt.redis;
  * @author 47HLJ
  * @date 2021/7/11 20:12
  */
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 import java.util.Set;
 
+@SpringBootTest
 public class JedisPoolTests {
     @Test
-    public void testJedisPool(){
+    void testJedisPool(){
         //1.创建池对象
         JedisPoolConfig jedisPoolConfig=new JedisPoolConfig();
         jedisPoolConfig.setMaxTotal(1000);// 最大连接数

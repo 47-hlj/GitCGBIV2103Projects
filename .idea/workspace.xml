@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="redis">
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/main/java/com/cy/jt/redis/JedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/redis/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/redis/pojo/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/jt-jedis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/jt-jedis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisPoolTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisPoolTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/target/test-classes/com/cy/jt/redis/JedisPoolTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/target/test-classes/com/cy/jt/redis/JedisPoolTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/target/test-classes/com/cy/jt/redis/JedisTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/target/test-classes/com/cy/jt/redis/JedisTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/jt-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/jt-template.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/RedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/RedisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/src/test/java/com/cy/redis/RedisTemplateTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/src/test/java/com/cy/redis/StringRedisTemplateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/test/java/com/cy/redis/StringRedisTemplateTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/target/classes/com/cy/RedisApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/target/test-classes/com/cy/RedisTemplateTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/target/test-classes/com/cy/StringRedisTemplateTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +94,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.254023" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -103,7 +124,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisTemplateTests.testSetData (1)">
+  <component name="RunManager" selected="JUnit.RedisTemplateTests.testConnection">
+    <configuration name="JedisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.redis.JedisApplication" />
+      <module name="jt-jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.jt.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -115,23 +149,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTemplateTests.testSetData (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jt-template" />
+    <configuration name="JedisTests.testStringOper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jt-jedis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cy.*" />
+          <option name="PATTERN" value="com.cy.jt.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cy" />
-      <option name="MAIN_CLASS_NAME" value="com.cy.RedisTemplateTests" />
-      <option name="METHOD_NAME" value="testSetData" />
+      <option name="PACKAGE_NAME" value="com.cy.jt.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.redis.JedisTests" />
+      <option name="METHOD_NAME" value="testStringOper" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTemplateTests.testSetData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisTemplateTests.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jt-template" />
       <extension name="coverage">
         <pattern>
@@ -141,23 +175,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cy.redis" />
       <option name="MAIN_CLASS_NAME" value="com.cy.redis.RedisTemplateTests" />
-      <option name="METHOD_NAME" value="testSetData" />
+      <option name="METHOD_NAME" value="testConnection" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringRedisTemplateTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jt-template" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cy.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cy.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.cy.redis.StringRedisTemplateTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,19 +214,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.JedisTests.testStringOper" />
       <item itemvalue="JUnit.StringRedisTemplateTests.testConnection" />
-      <item itemvalue="JUnit.StringRedisTemplateTests" />
+      <item itemvalue="Application.JedisApplication" />
       <item itemvalue="JUnit.StringRedisTemplateTests.testStringOper" />
-      <item itemvalue="JUnit.RedisTemplateTests.testSetData" />
-      <item itemvalue="JUnit.RedisTemplateTests.testSetData (1)" />
+      <item itemvalue="JUnit.RedisTemplateTests.testConnection" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RedisTemplateTests.testSetData (1)" />
-        <item itemvalue="JUnit.RedisTemplateTests.testSetData" />
-        <item itemvalue="JUnit.StringRedisTemplateTests.testConnection" />
+        <item itemvalue="JUnit.RedisTemplateTests.testConnection" />
         <item itemvalue="JUnit.StringRedisTemplateTests.testStringOper" />
-        <item itemvalue="JUnit.StringRedisTemplateTests" />
+        <item itemvalue="JUnit.StringRedisTemplateTests.testConnection" />
+        <item itemvalue="Application.JedisApplication" />
+        <item itemvalue="JUnit.JedisTests.testStringOper" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +271,9 @@
       <workItem from="1625800825133" duration="2997000" />
       <workItem from="1625813318594" duration="10434000" />
       <workItem from="1625998314162" duration="5562000" />
-      <workItem from="1626007149584" duration="6147000" />
+      <workItem from="1626007149584" duration="7273000" />
+      <workItem from="1626050496287" duration="10594000" />
+      <workItem from="1626063889350" duration="4627000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -436,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626013016766</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="redis">
+      <created>1626013994120</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1626013994120</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
