@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="redis">
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java/com/cy/jt/redis/JedisTransactionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/test/java/com/cy/redis/MasterSlaveTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/redis/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/redis/config/RedisConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/test/java" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.254023" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
@@ -103,16 +104,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisTemplateTests.testConnection">
-    <configuration name="JedisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cy.jt.redis.JedisApplication" />
-      <module name="jt-jedis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cy.jt.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.JedisTransactionTests.testTx">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,6 +127,22 @@
       <option name="PACKAGE_NAME" value="com.cy.jt.redis" />
       <option name="MAIN_CLASS_NAME" value="com.cy.jt.redis.JedisTests" />
       <option name="METHOD_NAME" value="testStringOper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTransactionTests.testTx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jt-jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cy.jt.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cy.jt.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.cy.jt.redis.JedisTransactionTests" />
+      <option name="METHOD_NAME" value="testTx" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,19 +197,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JedisApplication" />
       <item itemvalue="JUnit.JedisTests.testStringOper" />
       <item itemvalue="JUnit.StringRedisTemplateTests.testConnection" />
       <item itemvalue="JUnit.StringRedisTemplateTests.testStringOper" />
       <item itemvalue="JUnit.RedisTemplateTests.testConnection" />
+      <item itemvalue="JUnit.JedisTransactionTests.testTx" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JedisTransactionTests.testTx" />
+        <item itemvalue="JUnit.JedisTests.testStringOper" />
         <item itemvalue="JUnit.RedisTemplateTests.testConnection" />
         <item itemvalue="JUnit.StringRedisTemplateTests.testStringOper" />
         <item itemvalue="JUnit.StringRedisTemplateTests.testConnection" />
-        <item itemvalue="Application.JedisApplication" />
-        <item itemvalue="JUnit.JedisTests.testStringOper" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +257,9 @@
       <workItem from="1626007149584" duration="7273000" />
       <workItem from="1626050496287" duration="10594000" />
       <workItem from="1626063889350" duration="5933000" />
-      <workItem from="1626070664306" duration="437000" />
+      <workItem from="1626070664306" duration="5299000" />
+      <workItem from="1626090604079" duration="1311000" />
+      <workItem from="1626140732989" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -440,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626069123920</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="redis">
+      <created>1626071296447</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1626071296447</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
