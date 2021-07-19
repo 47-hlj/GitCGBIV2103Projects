@@ -4,86 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-jt/src/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-jt/jt-gateway/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-jt/jt-generator/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-jt-sca/sca-provider/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/06-jt-security.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-shiro-security/jt-shiro-security.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-shiro-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-shiro-security/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/jt-spring-security.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/SecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/config/DefaultAccessDeniedExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/config/DefaultAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/config/RedirectAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/controller/ResourceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/service/UserDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/resources/static/images/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/resources/static/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-jt-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="study springcloud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-jt/01-jt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01-jt/01-jt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/jt-common-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/jt-common-basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-common/jt-common-basic/target/classes/com/cy/jt/common/basic/util/StringUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-gateway/jt-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-gateway/jt-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-generator/jt-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-generator/jt-generator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/jt-demos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/jt-demos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/target/classes/com/cy/jt/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/target/classes/com/cy/jt/demo/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/target/classes/com/cy/jt/demo/controller/MemoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-demos/target/classes/com/cy/jt/demo/service/MemoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/jt-member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/jt-member.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-jt/jt-portal/jt-member/target/classes/com/cy/jt/MemberApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/sca-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-consumer/sca-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-consumer/target/classes/com/cy/ScaComsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-gateway/sca-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-gateway/sca-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-provider/sca-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-provider/sca-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-provider/target/classes/com/cy/ScaProviderApplication$ProviderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-provider/target/classes/com/cy/ScaProviderApplication$ProviderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-provider/target/classes/com/cy/ScaProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-provider/target/classes/com/cy/ScaProviderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-jt-sca/sca-provider/target/classes/com/cy/controller/RestProviderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/03-jt-sca/sca-provider/target/classes/com/cy/controller/RestProviderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/jt-common-basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/jt-common-basics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/target/classes/com/cy/jt/common/domain/SysNotice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-commons/jt-common-basics/target/classes/com/cy/jt/common/vo/JsonResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/jt-portals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/jt-portals.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/target/classes/com/cy/jt/PortalsApplication$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/target/classes/com/cy/jt/PortalsApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/target/classes/com/cy/jt/controller/PortalsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-portals/target/classes/com/cy/jt/service/feign/RemoteNoticeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/jt-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/jt-system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/target/classes/com/cy/jt/SystemApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/target/classes/com/cy/jt/system/dao/SysNoticeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/target/classes/com/cy/jt/system/service/SysNoticeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/target/classes/com/cy/jt/system/service/impl/SysNoticeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/target/classes/com/cy/jt/system/web/controller/SysNoticeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/target/classes/com/cy/jt/system/web/util/PageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/target/classes/mapper/system/SysNoticeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/target/classes/mapper/system/SysNoticeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/target/test-classes/com/cy/jt/dao/DataSourceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-jt-admin/jt-modules/jt-system/target/test-classes/com/cy/jt/dao/SysNoticeDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/jt-jedis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/jt-jedis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/jt-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/jt-template.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/main/java/com/cy/jt/redis/JedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/main/java/com/cy/jt/redis/JedisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/RedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/RedisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/SecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/SecurityApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,6 +264,10 @@
       <workItem from="1626618568538" duration="2443000" />
       <workItem from="1626653540947" duration="4654000" />
       <workItem from="1626660765971" duration="50000" />
+      <workItem from="1626662059703" duration="270000" />
+      <workItem from="1626665308183" duration="19000" />
+      <workItem from="1626684786859" duration="389000" />
+      <workItem from="1626685199908" duration="484000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -550,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626141198512</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="study springcloud">
+      <created>1626662292650</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1626662292650</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,6 +520,7 @@
     <MESSAGE value="Gateway" />
     <MESSAGE value="gateway&amp;sentinel" />
     <MESSAGE value="redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis" />
+    <MESSAGE value="study springcloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="study springcloud" />
   </component>
 </project>
