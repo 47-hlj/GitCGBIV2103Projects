@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jt-system" />
         <module name="jt-generator" />
+        <module name="jt-spring-security" />
         <module name="jt-member" />
         <module name="jt-portals" />
         <module name="jt-template" />
@@ -20,6 +21,7 @@
         <module name="jt-common-basics" />
         <module name="jt-gateway" />
         <module name="jt-common-basic" />
+        <module name="jt-shiro-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +32,7 @@
       <module name="04-jt-cloud-admin" target="8" />
       <module name="04-jt-sca" target="1.8" />
       <module name="05-jt-redis" target="8" />
+      <module name="06-jt-security" target="8" />
       <module name="jt-admin" target="8" />
       <module name="jt-common" target="1.5" />
       <module name="jt-common-basic" target="1.5" />
@@ -43,6 +46,8 @@
       <module name="jt-modules" target="8" />
       <module name="jt-portal" target="1.5" />
       <module name="jt-portals" target="8" />
+      <module name="jt-shiro-security" target="8" />
+      <module name="jt-spring-security" target="8" />
       <module name="jt-system" target="8" />
       <module name="jt-template" target="8" />
       <module name="sca-consumer" target="8" />

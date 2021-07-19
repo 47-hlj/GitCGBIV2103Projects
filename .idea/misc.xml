@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/03-jt-sca/pom.xml" />
         <option value="$PROJECT_DIR$/04-jt-admin/pom.xml" />
         <option value="$PROJECT_DIR$/05-jt-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/06-jt-security/pom.xml" />
       </list>
     </option>
   </component>
