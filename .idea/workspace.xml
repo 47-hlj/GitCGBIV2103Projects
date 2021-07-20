@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="study springcloud">
+    <list default="true" id="6fc165b2-c0f5-436e-a3de-dc45189ee256" name="Default Changelist" comment="@SpringBootApplication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/main/java/com/cy/jt/redis/JedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-jedis/src/main/java/com/cy/jt/redis/JedisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/RedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-jt-redis/jt-template/src/main/java/com/cy/RedisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/SecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/SecurityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/controller/ResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-jt-security/jt-spring-security/src/main/java/com/cy/jt/controller/ResourceController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +265,8 @@
       <workItem from="1626662059703" duration="270000" />
       <workItem from="1626665308183" duration="19000" />
       <workItem from="1626684786859" duration="389000" />
-      <workItem from="1626685199908" duration="484000" />
+      <workItem from="1626685199908" duration="697000" />
+      <workItem from="1626778615006" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="第四阶段——微服务架构">
       <created>1624346527675</created>
@@ -486,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626662292650</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="@SpringBootApplication">
+      <created>1626685717707</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1626685717708</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,6 +527,7 @@
     <MESSAGE value="gateway&amp;sentinel" />
     <MESSAGE value="redis" />
     <MESSAGE value="study springcloud" />
-    <option name="LAST_COMMIT_MESSAGE" value="study springcloud" />
+    <MESSAGE value="@SpringBootApplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="@SpringBootApplication" />
   </component>
 </project>
